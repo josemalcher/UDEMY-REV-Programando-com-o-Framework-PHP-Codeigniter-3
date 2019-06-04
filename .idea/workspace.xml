@@ -1,60 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da8cdef0-a68a-466f-944c-fe889e47965a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/cache/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/doctypes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/foreign_chars.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/hooks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/memcached.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/migration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/mimes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/profiler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/smileys.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/config/user_agents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/controllers/Welcome.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/controllers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/core/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/helpers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/hooks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/language/english/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/language/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/libraries/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/logs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/models/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/third_party/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/cli/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/cli/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/cli/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/cli/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/cli/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/cli/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/html/error_404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/html/error_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/html/error_exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/html/error_general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/html/error_php.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/errors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/welcome_message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/index.php" afterDir="false" />
+    <list default="true" id="da8cdef0-a68a-466f-944c-fe889e47965a" name="Default Changelist" comment="4. Configurando os arquivos Config, Routes e Autoload">
+      <change afterPath="$PROJECT_DIR$/myapp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/CI_phpStorm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/DB_active_rec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/config/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/config/config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,47 +34,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+            <state relative-caret-position="-970">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/myapp/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/application/views/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="José Malcher Jr &lt;contato@josemalcher.net&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/myapp/application/views/welcome_message.php" />
         <option value="$PROJECT_DIR$/myapp/application/config/database.php" />
+        <option value="$PROJECT_DIR$/myapp/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -136,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,22 +91,39 @@
               <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
               <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myapp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,18 +180,20 @@
       <option name="presentableId" value="Default" />
       <updated>1559608304679</updated>
       <workItem from="1559608306227" duration="4497000" />
-      <workItem from="1559614871990" duration="247000" />
+      <workItem from="1559614871990" duration="1046000" />
+      <workItem from="1559616982730" duration="791000" />
+      <workItem from="1559619407394" duration="789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4744000" />
+    <option name="totallyTimeSpent" value="7123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="727" y="30" width="1190" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2543554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2630662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,7 +206,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.27522936" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32912844" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23279816" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -271,28 +237,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/views/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+        <state relative-caret-position="206">
+          <caret line="68" column="73" lean-forward="true" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="91" selection-start-line="91" selection-end-line="91" selection-end-column="51" />
+          <folding>
+            <element signature="e#71#978#0#PHP" />
+            <element signature="e#980#1242#0#PHP" />
+            <element signature="e#1277#1855#0#PHP" />
+            <element signature="e#1891#2505#0#PHP" />
+            <element signature="e#2539#2771#0#PHP" />
+            <element signature="e#2804#3161#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="299">
+            <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="58" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-970">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
         </state>
       </provider>
     </entry>

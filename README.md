@@ -31,6 +31,25 @@ https://www.udemy.com/criando-aplicacoes-web-com-o-framework-php-codeigniter-3/l
 ## <a name="parte2">Seção: 2 Iniciando os trabalhos com o CodeIgniter 3</a>
 
 
+#### 4. Configurando os arquivos Config, Routes e Autoload
+- myapp/.htaccess
+
+```apacheconfig
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+```
+
+```php
+$autoload['helper'] = array('url', 'form', 'html');
+```
+
+
+
 [Voltar ao Índice](#indice)
 
 ---
