@@ -1,4 +1,5 @@
 myapp/system
+myapp/application/config/database.php
 
 # Created by https://www.gitignore.io/api/vim,codeigniter,phpstorm+all,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=vim,codeigniter,phpstorm+all,visualstudiocode

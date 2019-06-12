@@ -1,5 +1,3 @@
-myapp/system
-
 # Created by https://www.gitignore.io/api/vim,codeigniter,phpstorm+all,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=vim,codeigniter,phpstorm+all,visualstudiocode
 
@@ -142,3 +140,8 @@ tags
 .history
 
 # End of https://www.gitignore.io/api/vim,codeigniter,phpstorm+all,visualstudiocode
+
+
+myapp/system
+mariadb-persistence/
+myapp/application/config/database.php
