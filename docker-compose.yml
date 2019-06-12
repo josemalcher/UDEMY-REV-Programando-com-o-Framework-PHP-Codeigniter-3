@@ -6,9 +6,5 @@ services:
       - '80:8000'
     volumes:
       - '.:/app'
-    depends_on:
-      - mariadb
-  mariadb:
-    image: 'bitnami/mariadb:10.3'
-    environment:
-      - ALLOW_EMPTY_PASSWORD=yes
+#    depends_on:
+#      - mariadb
