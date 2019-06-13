@@ -76,10 +76,10 @@ $query_builder = TRUE;
 
 $db['curso_CI01'] = array(
     'dsn'	=> '',
-    'hostname' => 'localhost',
-    'username' => 'joseI',
-    'password' => '',
-    'database' => 'josem679_ci-teste',
+    'hostname' => '172.22.0.2',
+    'username' => 'root',
+    'password' => 'passwd123',
+    'database' => 'curso_ci_blog',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
