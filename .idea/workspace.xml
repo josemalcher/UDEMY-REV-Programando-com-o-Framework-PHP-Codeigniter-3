@@ -2,52 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8cdef0-a68a-466f-944c-fe889e47965a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/application/controllers/Home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/frontend/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/spinning.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_spinning.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/assets/frontend/css/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/application/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/controllers/Home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +43,14 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="DOCKER MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="curso_ci_blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="blog_codeigniter: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DOCKER MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog_codeigniter: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="usuario: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -102,11 +67,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/application/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+              <folding>
+                <element signature="e#128#4035#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myapp/application/controllers/Home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="540">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -140,7 +126,6 @@
         <option value="$PROJECT_DIR$/myapp/application/config/config.php" />
         <option value="$PROJECT_DIR$/myapp/application/helpers/funcoes_helper.php" />
         <option value="$PROJECT_DIR$/myapp/application/config/autoload.php" />
-        <option value="$PROJECT_DIR$/myapp/application/config/database.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/template/html-footer.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/template/header.php" />
@@ -152,6 +137,8 @@
         <option value="$PROJECT_DIR$/myapp/application/views/backend/template/template.php" />
         <option value="$PROJECT_DIR$/myapp/application/config/routes.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/home.php" />
+        <option value="$PROJECT_DIR$/myapp/application/config/database.php" />
+        <option value="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" />
         <option value="$PROJECT_DIR$/myapp/application/controllers/Home.php" />
       </list>
     </option>
@@ -160,9 +147,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
+    <option name="x" value="781" />
     <option name="y" value="25" />
-    <option name="width" value="960" />
+    <option name="width" value="1139" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -205,21 +192,6 @@
               <item name="myapp" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
@@ -323,7 +295,7 @@
       <workItem from="1559680373407" duration="46000" />
       <workItem from="1560339451479" duration="21893000" />
       <workItem from="1560367453070" duration="1184000" />
-      <workItem from="1560451013443" duration="3516000" />
+      <workItem from="1560451013443" duration="4904000" />
     </task>
     <task id="LOCAL-00001" summary="4. Configurando os arquivos Config, Routes e Autoload">
       <created>1559620235059</created>
@@ -374,17 +346,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560452852464</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="3.1. Modelando as view da Home">
+      <created>1560458120075</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560458120075</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34434000" />
+    <option name="totallyTimeSpent" value="35822000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="25" width="960" height="1055" extended-state="4" />
-    <editor active="true" />
+    <frame x="781" y="25" width="1139" height="1055" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35076252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2935278" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32980132" />
@@ -403,7 +381,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.167057" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2616226" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +395,8 @@
     <MESSAGE value="6. Configurando e testando a conexão com o Banco de Dados" />
     <MESSAGE value="7. Realizando a tradução do Framework" />
     <MESSAGE value="10. Preparando o template master do Frong-End e Back-end do Blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. Preparando o template master do Frong-End e Back-end do Blog" />
+    <MESSAGE value="3.1. Modelando as view da Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.1. Modelando as view da Home" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/myapp/application/config/migration.php">
@@ -607,16 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
-          <folding>
-            <element signature="e#128#4035#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -662,10 +631,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+          <folding>
+            <element signature="e#128#4035#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/controllers/Home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="540">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
