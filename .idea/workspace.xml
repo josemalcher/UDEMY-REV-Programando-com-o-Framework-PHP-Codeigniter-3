@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8cdef0-a68a-466f-944c-fe889e47965a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" afterDir="false" />
@@ -69,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -78,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="640">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -87,8 +89,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/categoria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="418">
+              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -98,6 +109,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>user</find>
+      <find>modelcategorias</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,9 +158,10 @@
         <option value="$PROJECT_DIR$/myapp/application/views/backend/template/html-header.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/home.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/template/template.php" />
-        <option value="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" />
-        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" />
         <option value="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" />
+        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" />
+        <option value="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" />
+        <option value="$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php" />
       </list>
     </option>
   </component>
@@ -266,7 +279,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp/application/controllers/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp/application/views/backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -277,8 +290,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/myapp/application/controllers/admin" />
       <recent name="$PROJECT_DIR$/myapp/application/views/backend" />
+      <recent name="$PROJECT_DIR$/myapp/application/controllers/admin" />
       <recent name="$PROJECT_DIR$/myapp/application/views/frontend" />
       <recent name="$PROJECT_DIR$/myapp/application/models" />
       <recent name="$PROJECT_DIR$/myapp/application/controllers" />
@@ -346,7 +359,7 @@
       <workItem from="1560339451479" duration="21893000" />
       <workItem from="1560367453070" duration="1184000" />
       <workItem from="1560451013443" duration="7803000" />
-      <workItem from="1560476714731" duration="8990000" />
+      <workItem from="1560476714731" duration="10459000" />
     </task>
     <task id="LOCAL-00001" summary="4. Configurando os arquivos Config, Routes e Autoload">
       <created>1559620235059</created>
@@ -495,17 +508,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560503579284</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="4.5. Excluindo dados das Categorias de Forma Segura">
+      <created>1560504353567</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1560504353567</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47711000" />
+    <option name="totallyTimeSpent" value="49180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="884" y="25" width="1036" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28973842" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28973842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32980132" />
@@ -526,6 +546,28 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.2616226" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28973842" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32980132" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.6054007" weight="0.39266452" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32901832" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3462783" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.3945993" side_tool="true" weight="0.27400216" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2616226" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -552,7 +594,8 @@
     <MESSAGE value="4.2. Modelando a view Categoria no Backend" />
     <MESSAGE value="4.3. Listando as categorias com ajuda da Biblioteca Table do Framework" />
     <MESSAGE value="4.4. Adicionando novas Categorias na Base de Dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.4. Adicionando novas Categorias na Base de Dados" />
+    <MESSAGE value="4.5. Excluindo dados das Categorias de Forma Segura" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.5. Excluindo dados das Categorias de Forma Segura" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/myapp/application/config/migration.php">
@@ -885,24 +928,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/categoria.php">
+    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        <state relative-caret-position="360">
+          <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php">
+    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="640">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>

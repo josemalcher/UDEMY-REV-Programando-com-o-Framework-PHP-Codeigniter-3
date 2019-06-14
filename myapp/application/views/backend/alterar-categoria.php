@@ -10,7 +10,7 @@
         <div class="col-lg-6">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <?php echo 'Adicionar nova ' . $subtitulo ?>
+                    <?php echo 'Alterar ' . $subtitulo ?>
                 </div>
                 <div class="panel-body">
                     <div class="row">
@@ -18,14 +18,20 @@
                             <?php
                                 echo validation_errors('<div class="alert alert-danger">','</div>');
                                 echo validation_errors();
-                                echo form_open('admin/categoria/inserir');
+                                echo form_open('admin/categoria/salvar_alteracoes');
+
+                                foreach ($categorias as $categoria){
                                 ?>
                                  <div class="form-group">
                                     <label id="txt-categoria">Nome da Categoria</label>
-                                    <input type="text" id="txt-categoria" name="txt-categoria" class="form-control" placeholder="Digite o nome da categoria">
+                                    <input type="text" id="txt-categoria" name="txt-categoria" class="form-control"
+                                           value="<?php echo $categoria->titulo?>"
+                                           placeholder="Digite o nome da categoria">
                                  </div>
-                                 <button type="submit" class="btn btn-default">Cadastrar</button>
+                                    <input type="hidden" id="txt-id" name="txt-id" value="<?php echo $categoria->id?>">
+                                 <button type="submit" class="btn btn-default">Atualizar</button>
                             <?php
+                                }
                                 echo form_close();
                             ?>
                         </div>
@@ -37,37 +43,7 @@
             </div>
             <!-- /.panel -->
         </div>
-        <div class="col-lg-6">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <?php echo 'Alterar ' . $subtitulo . ' existente' ?>
-                </div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <?php
-                            $this->table->set_heading("NOme da Categoria", "Alterar", "Excluir");
-                            foreach ($categorias as $categoria) {
-                                $nomecat = $categoria->titulo;
-                                $alterar = anchor(base_url('admin/categoria/alterar/'. md5($categoria->id)), '<i class="fa fa-refresh fa-fw"></i> Alterar');
-                                $excluir = anchor(base_url('admin/categoria/excluir/'. md5($categoria->id)), '<i class="fa fa-remove fa-fw"></i> Excluir');
 
-                                $this->table->add_row($nomecat, $alterar, $excluir);
-                            }
-                            $this->table->set_template(array(
-                                'table_open' => '<table class="table table-striped">'
-                            ));
-                            echo $this->table->generate();
-                            ?>
-                        </div>
-
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.panel-body -->
-            </div>
-            <!-- /.panel -->
-        </div>
         <!-- /.col-lg-12 -->
     </div>
     <!-- /.row -->
