@@ -10,13 +10,20 @@ class Usuarios extends CI_Controller {
 
     public function index()
     {
+        if(!$this->session->userdata('logado')){
+            redirect(base_url('admin/login'));
+        }
+        $this->load->library('table');
+        $this->load->model('usuarios_model', 'modelusuarios');
+        $dados['usuarios'] = $this->modelusuarios->listar_autores();
+
         //Dados para o cabeçalho
         $dados['titulo'] = "Painel de Controle";
-        $dados['subtitulo'] = "Home";
+        $dados['subtitulo'] = "Usuários";
 
         $this->load->view('backend/template/html-header', $dados);
         $this->load->view('backend/template/template');
-        $this->load->view('backend/home');
+        $this->load->view('backend/usuarios');
         $this->load->view('backend/template/html-footer');
 
 
