@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8cdef0-a68a-466f-944c-fe889e47965a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/myapp/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/config/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/application/views/backend/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/config/routes.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +45,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="blog_codeigniter: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="DOCKER MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="blog_codeigniter: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="usuario: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -66,33 +61,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php">
+        <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="380">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myapp/application/config/config.php">
+        <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="365" column="14" selection-start-line="365" selection-start-column="14" selection-end-line="365" selection-end-column="14" />
-              <folding>
-                <element signature="e#71#870#0#PHP" />
-                <element signature="e#914#1269#0#PHP" />
-                <element signature="e#1308#1932#0#PHP" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -100,17 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/categoria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            <state relative-caret-position="398">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -161,11 +133,9 @@
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/template/header.php" />
         <option value="$PROJECT_DIR$/myapp/application/models/Usuarios_model.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/sobrenos.php" />
-        <option value="$PROJECT_DIR$/myapp/application/config/routes.php" />
         <option value="$PROJECT_DIR$/myapp/application/controllers/Sobrenos.php" />
         <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Home.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/template/html-header.php" />
-        <option value="$PROJECT_DIR$/myapp/application/views/backend/home.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/template/template.php" />
         <option value="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" />
         <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" />
@@ -173,6 +143,12 @@
         <option value="$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php" />
         <option value="$PROJECT_DIR$/myapp/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/myapp/application/config/config.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f6697066-9f7e-4b8d-9eb2-524680e6d9f1/console.sql" />
+        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php" />
+        <option value="$PROJECT_DIR$/myapp/application/views/backend/home.php" />
+        <option value="$PROJECT_DIR$/myapp/application/views/backend/loign.php" />
+        <option value="$PROJECT_DIR$/myapp/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/myapp/application/views/backend/login.php" />
       </list>
     </option>
   </component>
@@ -266,15 +242,6 @@
               <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
               <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
               <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -297,7 +264,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp/application/views/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp/application/controllers/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -308,8 +275,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/myapp/application/views/backend" />
       <recent name="$PROJECT_DIR$/myapp/application/controllers/admin" />
+      <recent name="$PROJECT_DIR$/myapp/application/views/backend" />
       <recent name="$PROJECT_DIR$/myapp/application/views/frontend" />
       <recent name="$PROJECT_DIR$/myapp/application/models" />
       <recent name="$PROJECT_DIR$/myapp/application/controllers" />
@@ -377,7 +344,7 @@
       <workItem from="1560339451479" duration="21893000" />
       <workItem from="1560367453070" duration="1184000" />
       <workItem from="1560451013443" duration="7803000" />
-      <workItem from="1560476714731" duration="10708000" />
+      <workItem from="1560476714731" duration="11595000" />
     </task>
     <task id="LOCAL-00001" summary="4. Configurando os arquivos Config, Routes e Autoload">
       <created>1559620235059</created>
@@ -540,19 +507,27 @@
       <option name="project" value="LOCAL" />
       <updated>1560506549486</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="4.7. Criando e salvando sessões no banco de dados">
+      <created>1560506921101</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1560506921101</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49429000" />
+    <option name="totallyTimeSpent" value="50316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="884" y="25" width="1036" height="1055" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28973842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28973842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32980132" />
+      <window_info anchor="bottom" id="Database Console" order="0" visible="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" />
@@ -568,7 +543,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.2615694" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2615694" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28973842" />
@@ -620,21 +595,10 @@
     <MESSAGE value="4.4. Adicionando novas Categorias na Base de Dados" />
     <MESSAGE value="4.5. Excluindo dados das Categorias de Forma Segura" />
     <MESSAGE value="4.6. Atualizando as Categorias de Forma Segura" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.6. Atualizando as Categorias de Forma Segura" />
+    <MESSAGE value="4.7. Criando e salvando sessões no banco de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.7. Criando e salvando sessões no banco de dados" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myapp/application/config/migration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/views/welcome_message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -713,9 +677,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f6697066-9f7e-4b8d-9eb2-524680e6d9f1/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://f6697066-9f7e-4b8d-9eb2-524680e6d9f1/schema/curso_ci_blog/table/postagens">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -861,16 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#71#1858#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/controllers/Home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -896,13 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -934,20 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/categoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/config/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -962,22 +892,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f6697066-9f7e-4b8d-9eb2-524680e6d9f1/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="180">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f6697066-9f7e-4b8d-9eb2-524680e6d9f1/schema/blog_codeigniter/table/ci_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="33633138-6204-42a6-9ac0-bedafe520e60">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="365" column="14" selection-start-line="365" selection-start-column="14" selection-end-line="365" selection-end-column="14" />
+        <state relative-caret-position="220">
+          <caret line="370" column="1" lean-forward="true" selection-start-line="370" selection-start-column="1" selection-end-line="370" selection-end-column="1" />
           <folding>
             <element signature="e#71#870#0#PHP" />
             <element signature="e#914#1269#0#PHP" />
             <element signature="e#1308#1932#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#71#1858#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
