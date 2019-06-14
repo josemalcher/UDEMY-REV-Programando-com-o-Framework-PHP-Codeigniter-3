@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8cdef0-a68a-466f-944c-fe889e47965a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/application/views/backend/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/views/backend/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/application/views/backend/template/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/views/backend/template/template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,19 +60,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php">
+        <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/template/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="40" />
+            <state relative-caret-position="380">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/home.php">
+        <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            <state relative-caret-position="626">
+              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -122,11 +123,8 @@
         <option value="$PROJECT_DIR$/myapp/application/models/Usuarios_model.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/sobrenos.php" />
         <option value="$PROJECT_DIR$/myapp/application/controllers/Sobrenos.php" />
-        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Home.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/template/html-header.php" />
-        <option value="$PROJECT_DIR$/myapp/application/views/backend/template/template.php" />
         <option value="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" />
-        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php" />
         <option value="$PROJECT_DIR$/myapp/application/config/autoload.php" />
@@ -136,8 +134,11 @@
         <option value="$PROJECT_DIR$/myapp/application/config/routes.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/login.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/home.php" />
+        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" />
+        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Home.php" />
+        <option value="$PROJECT_DIR$/myapp/application/views/backend/template/template.php" />
+        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php" />
       </list>
     </option>
   </component>
@@ -212,6 +213,15 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +329,7 @@
       <workItem from="1560339451479" duration="21893000" />
       <workItem from="1560367453070" duration="1184000" />
       <workItem from="1560451013443" duration="7803000" />
-      <workItem from="1560476714731" duration="12428000" />
+      <workItem from="1560476714731" duration="12804000" />
     </task>
     <task id="LOCAL-00001" summary="4. Configurando os arquivos Config, Routes e Autoload">
       <created>1559620235059</created>
@@ -496,11 +506,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560507657806</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="4.9. Configurando o login e criando uma sessão do usuário">
+      <created>1560508524291</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560508524292</updated>
+    </task>
+    <task id="LOCAL-00027" summary="4.10. Protegendo o acesso as páginas de administração do blog">
+      <created>1560508723235</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1560508723235</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51149000" />
+    <option name="totallyTimeSpent" value="51525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="884" y="25" width="1036" height="1055" extended-state="4" />
@@ -554,8 +578,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4. Configurando os arquivos Config, Routes e Autoload" />
-    <MESSAGE value="Atualização do README sem sumário" />
     <MESSAGE value="5. Criando e acessando Métodos nos Controladores" />
     <MESSAGE value="Ajustes" />
     <MESSAGE value="6. Configurando e testando a conexão com o Banco de Dados" />
@@ -579,7 +601,9 @@
     <MESSAGE value="4.6. Atualizando as Categorias de Forma Segura" />
     <MESSAGE value="4.7. Criando e salvando sessões no banco de dados" />
     <MESSAGE value="4.8. Criando a view de login no painel administrativo" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.8. Criando a view de login no painel administrativo" />
+    <MESSAGE value="4.9. Configurando o login e criando uma sessão do usuário" />
+    <MESSAGE value="4.10. Protegendo o acesso as páginas de administração do blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.10. Protegendo o acesso as páginas de administração do blog" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/myapp/.htaccess">
@@ -826,31 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/controllers/Sobrenos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="61" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/template/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="100" lean-forward="true" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="61" column="61" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -943,17 +946,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php">
+    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="40" />
+        <state relative-caret-position="460">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/home.php">
+    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="300">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/template/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Usuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
         </state>
       </provider>
     </entry>
