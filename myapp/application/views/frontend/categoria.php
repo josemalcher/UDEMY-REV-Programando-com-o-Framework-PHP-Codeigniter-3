@@ -29,7 +29,7 @@
                 <a class="btn btn-primary"
                    href="<?php echo base_url('postagem/' . $destaque->id . '/' . limpar($destaque->titulo)) ?>">Leia
                     mais <span
-                            class="glyphicon glyphicon-chevron-right"></span></a>
+                        class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
                 <?php
