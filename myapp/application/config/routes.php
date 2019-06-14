@@ -54,3 +54,4 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE; // transforma fale-conosco -> fale_conosco
 
 $route['categoria/(:num)/(:any)'] =  'categorias/index/$1/$2';
+$route['postagem/(:num)/(:any)'] =  'postagens/index/$1/$2';
