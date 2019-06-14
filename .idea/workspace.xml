@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8cdef0-a68a-466f-944c-fe889e47965a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/config/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/config/config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,11 +74,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="320">
+              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myapp/application/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="365" column="14" selection-start-line="365" selection-start-column="14" selection-end-line="365" selection-end-column="14" />
+              <folding>
+                <element signature="e#71#870#0#PHP" />
+                <element signature="e#914#1269#0#PHP" />
+                <element signature="e#1308#1932#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,9 +142,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/myapp/application/config/.gitignore" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/myapp/application/config/config.php" />
         <option value="$PROJECT_DIR$/myapp/application/helpers/funcoes_helper.php" />
-        <option value="$PROJECT_DIR$/myapp/application/config/autoload.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/template/html-footer.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/template/footer.php" />
@@ -162,6 +171,8 @@
         <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/alterar-categoria.php" />
+        <option value="$PROJECT_DIR$/myapp/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/myapp/application/config/config.php" />
       </list>
     </option>
   </component>
@@ -199,6 +210,13 @@
               <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
               <item name="myapp" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UDEMY-REV-Programando-com-o-Framework-PHP-Codeigniter-3" type="b2602c69:ProjectViewProjectNode" />
@@ -359,7 +377,7 @@
       <workItem from="1560339451479" duration="21893000" />
       <workItem from="1560367453070" duration="1184000" />
       <workItem from="1560451013443" duration="7803000" />
-      <workItem from="1560476714731" duration="10459000" />
+      <workItem from="1560476714731" duration="10708000" />
     </task>
     <task id="LOCAL-00001" summary="4. Configurando os arquivos Config, Routes e Autoload">
       <created>1559620235059</created>
@@ -515,17 +533,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560504353567</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="4.6. Atualizando as Categorias de Forma Segura">
+      <created>1560506549486</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560506549486</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49180000" />
+    <option name="totallyTimeSpent" value="49429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="884" y="25" width="1036" height="1055" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28973842" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28973842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32980132" />
@@ -544,7 +568,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.2616226" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.2615694" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28973842" />
@@ -595,7 +619,8 @@
     <MESSAGE value="4.3. Listando as categorias com ajuda da Biblioteca Table do Framework" />
     <MESSAGE value="4.4. Adicionando novas Categorias na Base de Dados" />
     <MESSAGE value="4.5. Excluindo dados das Categorias de Forma Segura" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.5. Excluindo dados das Categorias de Forma Segura" />
+    <MESSAGE value="4.6. Atualizando as Categorias de Forma Segura" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.6. Atualizando as Categorias de Forma Segura" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/myapp/application/config/migration.php">
@@ -679,18 +704,6 @@
     <entry file="file://$PROJECT_DIR$/myapp/application/language/portuguese-brazilian/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
-          <folding>
-            <element signature="e#71#870#0#PHP" />
-            <element signature="e#914#1269#0#PHP" />
-            <element signature="e#1308#1932#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -710,20 +723,6 @@
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
-          <folding>
-            <element signature="e#71#978#0#PHP" />
-            <element signature="e#980#1242#0#PHP" />
-            <element signature="e#1277#1855#0#PHP" />
-            <element signature="e#1901#2515#0#PHP" />
-            <element signature="e#2549#2781#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,10 +948,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <element signature="e#71#978#0#PHP" />
+            <element signature="e#980#1242#0#PHP" />
+            <element signature="e#1277#1855#0#PHP" />
+            <element signature="e#1901#2515#0#PHP" />
+            <element signature="e#2549#2781#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="320">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="365" column="14" selection-start-line="365" selection-start-column="14" selection-end-line="365" selection-end-column="14" />
+          <folding>
+            <element signature="e#71#870#0#PHP" />
+            <element signature="e#914#1269#0#PHP" />
+            <element signature="e#1308#1932#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
