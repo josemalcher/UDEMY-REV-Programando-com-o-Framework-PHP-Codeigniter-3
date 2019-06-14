@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da8cdef0-a68a-466f-944c-fe889e47965a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,20 +66,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="600">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/categoria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state relative-caret-position="626">
+              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -120,7 +130,6 @@
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/template/aside.php" />
         <option value="$PROJECT_DIR$/myapp/application/controllers/Home.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/home.php" />
-        <option value="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" />
         <option value="$PROJECT_DIR$/myapp/application/controllers/Categorias.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/categoria.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/frontend/template/html-header.php" />
@@ -137,8 +146,9 @@
         <option value="$PROJECT_DIR$/myapp/application/views/backend/template/html-header.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/home.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/template/template.php" />
-        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" />
         <option value="$PROJECT_DIR$/myapp/application/views/backend/categoria.php" />
+        <option value="$PROJECT_DIR$/myapp/application/models/Categorias_model.php" />
+        <option value="$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php" />
       </list>
     </option>
   </component>
@@ -146,9 +156,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="880" />
+    <option name="x" value="884" />
     <option name="y" value="25" />
-    <option name="width" value="1040" />
+    <option name="width" value="1036" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -336,7 +346,7 @@
       <workItem from="1560339451479" duration="21893000" />
       <workItem from="1560367453070" duration="1184000" />
       <workItem from="1560451013443" duration="7803000" />
-      <workItem from="1560476714731" duration="7322000" />
+      <workItem from="1560476714731" duration="8195000" />
     </task>
     <task id="LOCAL-00001" summary="4. Configurando os arquivos Config, Routes e Autoload">
       <created>1559620235059</created>
@@ -471,17 +481,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560501958292</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="4.3. Listando as categorias com ajuda da Biblioteca Table do Framework">
+      <created>1560502706897</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1560502706897</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46043000" />
+    <option name="totallyTimeSpent" value="46916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="880" y="25" width="1040" height="1055" extended-state="4" />
+    <frame x="884" y="25" width="1036" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28857717" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28973842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32980132" />
@@ -503,7 +520,7 @@
       <window_info anchor="right" id="Database" order="3" weight="0.2616226" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28857717" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28973842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32980132" />
@@ -548,7 +565,8 @@
     <MESSAGE value="3.12. Criando a página Sobre Nós" />
     <MESSAGE value="4.1. Modelando as views na Home do Backend" />
     <MESSAGE value="4.2. Modelando a view Categoria no Backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.2. Modelando a view Categoria no Backend" />
+    <MESSAGE value="4.3. Listando as categorias com ajuda da Biblioteca Table do Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.3. Listando as categorias com ajuda da Biblioteca Table do Framework" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/myapp/application/config/migration.php">
@@ -773,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/models/Publicacoes_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -881,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/template/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -895,10 +899,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/models/Categorias_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/application/views/backend/categoria.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state relative-caret-position="626">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/application/controllers/admin/Categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
         </state>
       </provider>
     </entry>
